@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #000428;
+}
+
+.random-password-app {
+  width: 500px;
+  margin-left: 100px;
+}
+
+.header {
+  width: fit-content;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 3px solid #56ab2f;
+  
+}
+
+.header span {
+  color: #56ab2f;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.fa {
+  position: absolute;
+  margin-right: 15px;
+  color: #56ab2f;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button {
+  width: 50%;
+  padding: 15px;
+  background-color: #56ab2f;
+  color: white;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button .fa-solid {
+  margin-right: 10px;
+  font-size: 25px;
+}
